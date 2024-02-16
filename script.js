@@ -13,3 +13,7 @@
 // let question1 = prompt("what is the quote? ");
 // let question2 = prompt("who said it? ");
 // console.log(`${question2} says \"${question1}"`);
+
+// პროექტი 4 - Indoor Voice - ჩუმი ხმა
+// let question = prompt("what is your question");
+// console.log(question.toLowerCase());
