@@ -17,3 +17,7 @@
 // პროექტი 4 - Indoor Voice - ჩუმი ხმა
 // let question = prompt("what is your question");
 // console.log(question.toLowerCase());
+
+// პროექტი 5 - Playback Speed - საუბრის სიჩქარე
+// let question = prompt("what is your question");
+// console.log(question.replaceAll(" ", "."));
