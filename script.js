@@ -21,3 +21,24 @@
 // პროექტი 5 - Playback Speed - საუბრის სიჩქარე
 // let question = prompt("what is your question");
 // console.log(question.replaceAll(" ", "."));
+
+// პროექტი 6 - Making Faces - სახეების მიღება
+// function convert(str) {
+//   let changed = str.replaceAll(":)", "🙂").replaceAll(":(", "🙁");
+//   return changed;
+// }
+// function main() {
+//   let question = prompt(" please enter your mood");
+//   return convert(question);
+// }
+// console.log(main());
+
+// პროექტი 7 - თამაში Mad Libs
+// let noun = prompt("Enter a noun: ");
+// let verb = prompt(" Enter a verb: ");
+// let adjective = prompt("Enter an adjective: ");
+// let adverb = prompt("Enter an adverb: ");
+// let adjective2 = prompt("Enter an adjective: ");
+// console.log(
+//   `do you ${noun} ${verb} ${adjective} ${adverb} ${adjective2} ? thas\`s hilarious`
+// );
