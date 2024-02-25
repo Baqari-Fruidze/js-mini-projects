@@ -42,3 +42,66 @@
 // console.log(
 //   `do you ${noun} ${verb} ${adjective} ${adverb} ${adjective2} ? thas\`s hilarious`
 // );
+
+// პროექტი 10 - ქულების გამომთვლელი
+// let score = Number(prompt("please enter yout grade "));
+// if (score > 90 && score <= 100) {
+//   console.log(`congratulations, you score is ${score} and your grade is A  `);
+// } else if (score > 80 && score < 90) {
+//   console.log(`congratulations you score is ${score} and your grade is B`);
+// } else if (score > 70 && score <= 80) {
+//   console.log(`congratulations your score is ${score} and your grade is c `);
+// } else if (score > 60 && score <= 70) {
+//   console.log(`congratulations your score is ${score} and your gradee is d`);
+// } else if (score > 0 && score <= 59) {
+//   console.log(
+//     `unfortunately you failes, your score is ${score} and your grade is F`
+//   );
+// } else {
+//   console.log("please enter correct score");
+// }
+
+// პროექტი 11 - Simple Math - მარტივი მათემატიკა
+// let firstNumber = Math. floor(Number(prompt("What is the first number? ")))
+// let secondNumber =Math. floor( Number(prompt(" What is the second number? ")))
+// console.log(firstNumber + secondNumber)
+// console.log(firstNumber - secondNumber)
+// console.log(firstNumber * secondNumber)
+// console.log(Math. floor(firstNumber / secondNumber))
+
+// პროექტი 12 - Einstein - აინშტაინი
+
+// let lightSpeed = 300000000;
+// let weight = Number(prompt('please enter your weight'));
+// let answer = lightSpeed * weight
+// console.log(`this is your answer ${answer}`)
+
+// პროექტი 13 - Tip Calculator - "ჩაის" კალკულატორი
+
+// let price = prompt("please enter your expences ")
+// let tip = prompt("please enter your tip ")
+// let iconRemoved =Math.floor(price.replaceAll("$",""))
+//       let removed = tip.replaceAll("$","")
+//     let diveded = Number(removed) / 100
+//     let tipAmount =Number(iconRemoved) * diveded
+//     console.log(`leave ${tipAmount} $`)
+
+// პროექტი 14 - Retirement Calculator - საპენსიო კალკულატორი
+
+// let currentDate = new Date();
+// let currentYear = currentDate.getFullYear();
+//  let userAge =Number(prompt("please enter your age "))    //asaki
+//  let retireIn = Number(prompt(" At what age would you like to retire? "))
+//  let timeUntilRetire =  retireIn - userAge
+//  console.log(timeUntilRetire)
+//  let mustWorkYears=  currentYear + timeUntilRetire
+//  console.log(mustWorkYears)
+
+// პროექტი 15 - Area of a Rectangular Room - მართკუთხა ოთახის ფართობი
+
+// let length = Number(prompt(" What is the length of the room in feet? "));
+// let width = Number(prompt(" What is the width of the room in feet? "));
+// let squareFoot = length * width;
+// let squareMeter = Math.floor(squareFoot * 0.09290304);
+
+// console.log(` You entered dimensions of ${length} feet by ${width} feet,the are is ${squareFoot } square feet, ${squareMeter} square meters`)
