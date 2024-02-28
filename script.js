@@ -105,3 +105,80 @@
 // let squareMeter = Math.floor(squareFoot * 0.09290304);
 
 // console.log(` You entered dimensions of ${length} feet by ${width} feet,the are is ${squareFoot } square feet, ${squareMeter} square meters`)
+
+// პროექტი 16 - Pizza Party - პიცის წვეულება
+
+// let peopleAmount = Number(prompt("> How many people? "));
+// let pizaAmount = Number(prompt("How many pizzas do you have? "));
+// let pizaSlices = Number(prompt("how many slices does piza have ?"));
+// function counter(people, piza, slices) {
+//   let allSlices = piza * slices;
+//   let slicesPerPerson = Math.floor(allSlices / people);
+//   let leftOver = allSlices % people;
+//   return [
+//     `you  will have ${slicesPerPerson} slices per person and leftover is ${leftOver}`,
+//   ];
+// }
+// console.log(counter(peopleAmount, pizaAmount, pizaSlices));
+
+// პროექტი 17 - Grocery List - სასურსათო სია
+// function foo() {
+//   let item;
+//   let arr = [];
+//   for (; true; ) {
+//     item = prompt("what i have to bye ?");
+//     if (item === "") {
+//       break;
+//     }
+//     arr.push(item);
+//   }
+//   let obj = {};
+//   for (let i = 0; i < arr.length; i++) {
+//     if (!obj.hasOwnProperty(arr[i])) {
+//       obj[arr[i]] = 1;
+//     } else {
+//       obj[arr[i]] += 1;
+//     }
+//   }
+//   return obj;
+// }
+// console.log(foo());
+
+// პროექტი 18 - Adieu, adieu - მშვიდობით, მშვიდობით
+
+// let question = prompt("what is your name? ");
+// let arr = [];
+// for (; true; ) {
+//   let question = prompt("what is your name? ");
+//   if (question === "") {
+//     break;
+//   }
+//   arr.push(question);
+// }
+// console.log(`Adieu, adieu, to ${arr}`);
+
+// პროექტი 19 - Paint Calculator - საღებავის კალკულატორი
+
+// let length = prompt("what is your length ?");
+// let width = prompt("what is your width ?");
+// let squareMeter = length * width;
+// let quantity = Math.ceil(squareMeter / 360);
+// console.log(quantity);
+
+// პროექტი 20 - Self-Checkout - თვით-გადახდა
+
+// let firstPrice = Number(prompt(" Enter the price of item 1 "));
+// let firstQuantity = Number(prompt(" Enter the quantity of item 1 "));
+// let secondPrice = Number(prompt("Enter the price of item 2 "));
+// let secondQuantity = Number(prompt("Enter the quantity of item 2 "));
+// let thirdPrice = Number(prompt("Enter the price of item 3 "));
+// let thirdQuantity = Number(prompt("Enter the quantity of item 3 "));
+// let firstTotal = firstPrice * firstQuantity;
+// let secondTotal = secondPrice * secondQuantity;
+// let thirdTotal = thirdPrice * thirdQuantity;
+// let subTotal = firstTotal + secondTotal + thirdTotal;
+// let tax = subTotal * 0.055;
+// let total = subTotal + tax;
+// console.log(subTotal);
+// console.log(tax);
+// console.log(total);
