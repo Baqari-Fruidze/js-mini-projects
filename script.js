@@ -182,3 +182,38 @@
 // console.log(subTotal);
 // console.log(tax);
 // console.log(total);
+
+// პროექტი 21 - Currency Conversion - ვალუტის კონვერტაცია
+// let amountFrom = Number(prompt(" How many euros are you exchanging? "))
+// let rateFrom = Number(prompt("What is the exchange rate of euro? "))
+// let rateTo = Number(prompt("What is the exchange rate of dollar? "))
+//  let amountTo = (amountFrom * rateFrom) / rateTo
+
+//  console.log(`${amountFrom} euros at an exchange rate of ${rateFrom} is ${amountTo} U.S dollars`)
+
+// პროექტი 23 - Determining Compound Interest - რთული პროცენტის გამოთვლა
+// let investment = Number(prompt(" What is the principal amount? "))
+// let anualRate = Number(prompt("What is the rate? "))
+// let numberOfYears = Number(prompt("What is the number of years? "))
+// let rateAmountPerYear = Number(prompt(" What is the number of times the interest is compounded per year? "))
+
+//  let totalInvestment = investment * (1+ anualRate / rateAmountPerYear )*rateAmountPerYear * numberOfYears
+//  console.log(`${investment} invested at  ${anualRate} 6 years compounded   ${rateAmountPerYear} per year is  ${totalInvestment}`)
+
+// პროექტი 24 - Deep Thought - ღრმა ფიქრი
+
+// let answer = "forty-two";
+// let answer1 = "forty two";
+// let answer2 = "42";
+// for (; true; ) {
+//   let question = prompt(
+//     " What is the answer to the Great Question of Life, the Universe, and Everything? "
+//   ).toLowerCase();
+//   if (question === answer || question === answer1 || question === answer2) {
+//     console.log("yes");
+//   } else {
+//     console.log("no");
+//   }
+// }
+
+// პროექტი 25 - Home Federal Saving Bank - ფედერალური ბანკი
