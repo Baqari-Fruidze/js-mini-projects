@@ -217,3 +217,60 @@
 // }
 
 // პროექტი 25 - Home Federal Saving Bank - ფედერალური ბანკი
+// let greeting = prompt("i need some help,are you free?").toLowerCase()
+// if (greeting === "hello") {
+//   console.log("$0");
+// } else if (greeting[0] === "h") {
+//   console.log("$20");
+// } else {
+//  console.log("$100")
+// }
+
+// პროექტი 26 - Felipe's Taqueria - ფელიპეს სასადილო
+
+// let menu = {
+//   "Baja Taco": 4.25,
+//   Burrito: 7.5,
+//   Bowl: 8.5,
+//   Nachos: 11.0,
+//   Quesadilla: 8.5,
+//   "Super Burrito": 8.5,
+//   "Super Quesadilla": 9.5,
+//   Taco: 3.0,
+//   "Tortilla Salad": 8.0,
+// };
+// // let names = Object.keys(menu);
+// // let prices = Object.values(menu);
+// let count = 0;
+// for (;;) {
+//   let answer = prompt("what are you ordering? ");
+//   if (answer === "") {
+//     console.log(` $ ${count}`);
+//     break;
+//   }
+//   if (menu.hasOwnProperty(answer)) {
+//     count = count + menu[answer];
+//   }
+// }
+
+// პროექტი 27 - Emojize - ემოჯებად გადაქცევა
+
+// let smilesObj = {
+//   thumbs_up: "👍",
+//   earth_africa: "🌍",
+//   bear: "🐻",
+//   bug: "🐛",
+//   bus: "🚌",
+// };
+// for (;;) {
+//   let answer = prompt("please enter your mood");
+//   if (answer === "") {
+//     break;
+//   }
+//   if (!smilesObj.hasOwnProperty(answer)) {
+//     continue;
+//   }
+//   console.log(smilesObj[answer]);
+// }
+
+// პროექტი 28 - File Extensions - ფაილის ტიპები
