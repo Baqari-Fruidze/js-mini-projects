@@ -328,3 +328,70 @@
 // console.log(compare(hour));
 
 // პროექტი 31 Adding Numbers
+
+// function sumOfNumbers() {
+//   let arr = [];
+//   for (let i = 0; i < 5; i++) {
+//     let num = Number(prompt("please enter the number "));
+//     arr.push(num);
+//   }
+//   return arr.reduce((acc, element) => acc + element);
+// }
+// console.log(sumOfNumbers());
+
+// პროექტი 32 - Tax Calculator - გადასახადის კალკულატორი
+
+// let amount = Number(prompt("what is your amount? "));
+// let state = prompt("what is your state? ").toUpperCase();
+// if (state === "WI") {
+//   let tax = amount * 0.55;
+//   let taxedAmount = amount + amount * 0.055;
+//   console.log(`the tax is ${tax} `);
+//   console.log(`the total is ${taxedAmount}`);
+// } else {
+//   console.log(`the total tax is ${amount}`);
+// }
+
+// პროექტი 33 - Password Validation - პაროლის ვალიდაცია
+
+// for (;;) {
+//   let password = 2024;
+//   let answer = Number(prompt("please enter the password "));
+//   if (answer === password) {
+//     console.log("< Welcome!");
+//     break;
+//   } else {
+//     console.log("I don't know you.");
+//   }
+// }
+
+// პროექტი 34 - Legal Driving Age - მართვის კანონიერი ასაკი
+
+// let age = Number(prompt("how old are you "));
+// if (age >= 16) {
+//   console.log("You are old enough to legally drive.");
+// } else {
+//   console.log("You are not old enough to legally drive.");
+// }
+
+// პროექტი 35 - Blood Alcohol Calculator - სისხლში ალკოჰოლის შემცველობის კალკულატორი
+
+// let weight = Number(prompt("please enter the weight "));
+// let gender = prompt("please enter the gender ");
+// let glases = Number(prompt("please enter the amount of glasses "));
+// let alkoholAmount = Number(prompt("please enter the amount of alcohol "));
+// let hours = Number(prompt("how much has passed after drink "));
+
+// let test = ((alkoholAmount * 5.14) / weight) * 0.73 - 0.15 * hours;
+// if (gender === "male") {
+//   test = ((alkoholAmount * 5.14) / weight) * 0.73 - 0.15 * hours;
+// } else {
+//   test = ((alkoholAmount * 5.14) / weight) * 0.66 - 0.15 * hours;
+// }
+// if (test >= 0.08) {
+//   console.log("< Your BAC is 0.08,< It is not legal for you to drive.");
+// } else {
+//   console.log("იგულავე ოქრო");
+// }
+
+// პროექტი 36 - Temperature Converter - ტემპერატურის კონვერტაცია
