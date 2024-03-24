@@ -274,3 +274,57 @@
 // }
 
 // პროექტი 28 - File Extensions - ფაილის ტიპები
+
+// let arr = [".gif", ".jpg", " .jpeg", ".png", ".pdf", ".txt", ".zip"];
+// for (;;) {
+//   let answer = prompt("please enter your image format");
+//   if (arr.includes(answer.slice(answer.length - 4))) {
+//     console.log(answer);
+//   } else {
+//     console.log("application/octet-stream.");
+//     break;
+//   }
+// }
+
+// პროექტი 29 - Math Interpreter - მათემატიკური ინტერპრეტატორი
+// let input = eval(prompt("what you want to calculate?"));
+// console.log(input.toFixed(2));
+
+// პროექტი 30 - Meal Time - კვების დრო
+// let hour;
+// for (;;) {
+//   hour = prompt("enter your time");
+//   if (hour) {
+//     break;
+//   }
+// }
+// function convertor(string) {
+//   let minutes = Number(string.slice(string.length - 2));
+//   let roundedMinutes = Number((minutes / 60).toFixed(2));
+//   if (string[2] === ":" && string.slice(0, 2) === "12") {
+//     hour = 12 + roundedMinutes;
+//   }
+//   if (string[1] === ":") {
+//     hour = Number(string[0]) + roundedMinutes;
+//   }
+//   if (string[2] === ":" && string.slice(0, 2) !== "12") {
+//     hour = Number(string.slice(0, 2)) + roundedMinutes;
+//   }
+//   return hour;
+// }
+// convertor(hour);
+
+// function compare(hour) {
+//   if (hour >= 7 && hour <= 8) {
+//     return "it is breakfest time";
+//   } else if (hour >= 12 && hour < 13) {
+//     return "it is lunch time";
+//   } else if (hour >= 18 && hour < 19) {
+//     return "it is dinner time";
+//   } else {
+//     return "you can not it right now";
+//   }
+// }
+// console.log(compare(hour));
+
+// პროექტი 31 Adding Numbers
