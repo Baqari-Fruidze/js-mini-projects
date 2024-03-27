@@ -395,3 +395,118 @@
 // }
 
 // პროექტი 36 - Temperature Converter - ტემპერატურის კონვერტაცია
+
+// let select = prompt(
+//   " Press C to convert from Fahrenheit to Celsius or Press F to convert from Celsius to Fahrenheit"
+// );
+// console.log(`your choice is ${select}`);
+// if (select === "c") {
+//   let amountF = Number(prompt("Please enter the temperature in Fahrenheit: "));
+//   let celsius = ((amountF - 32) * 5) / 9;
+//   console.log(` the temperature in celsius is ${celsius}`);
+// } else {
+//   let amountC = Number(prompt("Please enter the temperature in celsius: "));
+//   let farenheit = (amountC * 9) / 5 + 32;
+//   console.log(` the temeperature in farebheit is ${farenheit}`);
+// }
+
+// პროექტი 37 - BMI Calculator - სხეულის მასის ინდექსის კალკულატორი
+
+// let weight = prompt("please enter your weight ");
+// let height = prompt("please enter your height ");
+// let bmi = (weight / (height * height)) * 703;
+// if (bmi >= 18.5 && bmi < 25) {
+//   console.log(
+//     `< You are within the ideal weight range. your bmi score is${bmi}`
+//   );
+// } else {
+//   console.log(
+//     `you bmi score is ${bmi} ,You are overweight. You should see your doctor.`
+//   );
+// }
+
+// პროექტი 38 - Multistate Sales Tax Calculator - შტატშორისი გაყიდვების გადასახადის კალკულატორი
+
+// let amount = Number(prompt("what is the  amount? "));
+// let state = prompt("what state do you live in? ");
+// if (state === "Wisconsin") {
+//   let daba = prompt("What county do you live in? ");
+//   if (daba === "Eau Claire") {
+//     amount = amount + amount * 0.005;
+//     console.log(`the total is $${amount}`);
+//   }
+//   if (daba === "dunn") {
+//     amount = amount + amount * 0.004;
+//     console.log(` the total is $${amount}`);
+//   }
+// } else if (state === "Illinois") {
+//   amount = amount + amount * 0.08;
+//   console.log(`the total is $${amount}`);
+// } else {
+//   console.log(`the total is $${amount}`);
+// }
+
+// პროექტი 39 - Numbers to Names - რიცხვები სიტყვებში
+
+// let answer = Number(prompt("please enter the number "));
+// switch (answer) {
+//   case 1:
+//     console.log("The name of the month is january");
+//     break;
+//   case 2:
+//     console.log("The name of the month is february.");
+//     break;
+//   case 3:
+//     console.log("The name of the month is march.");
+//     break;
+//   case 4:
+//     console.log("The name of the month is april.");
+//     break;
+//   case 5:
+//     console.log("The name of the month is may.");
+//     break;
+//   case 6:
+//     console.log("The name of the month is june.");
+//     break;
+//   case 7:
+//     console.log("The name of the month is jule.");
+//     break;
+//   case 8:
+//     console.log("The name of the month is august.");
+//     break;
+//   case 9:
+//     console.log("The name of the month is september.");
+//     break;
+//   case 10:
+//     console.log("The name of the month is october.");
+//     break;
+//   case 11:
+//     console.log("The name of the month is november.");
+//     break;
+//   case 12:
+//     console.log("The name of the month is december.");
+//     break;
+// }
+
+// პროექტი 40 - Comparing Numbers - რიცხვების შედარება
+
+// let num1 = Number(prompt("enter your number "));
+// let num2 = Number(prompt("enter your number "));
+// let num3 = Number(prompt("enter your number "));
+// let max;
+// if (num1 !== num2 && num2 !== num3 && num3 !== num1) {
+//   if (num1 > num2) {
+//     max = num1;
+//   } else {
+//     max = num2;
+//   }
+//   if (max > num3) {
+//     console.log(`yvelaze didi ricxvi aris ${max}`);
+//   } else {
+//     console.log(`yvelaze didi ricxvi aris ${num3}`);
+//   }
+// } else {
+//   return;
+// }
+
+// პროექტი 41 - Troubleshooting Car Issues - მანქანის პრობლემების მოგვარება
