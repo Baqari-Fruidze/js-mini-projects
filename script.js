@@ -510,3 +510,11 @@
 // }
 
 // პროექტი 41 - Troubleshooting Car Issues - მანქანის პრობლემების მოგვარება
+// let answer = prompt(" Is the car silent when you turn the key? ");
+// if (answer === "y") {
+//   let answer2 = prompt("Are the battery terminals corroded? ");
+//   if (answer2 === "n") {
+//     console.log("The battery cables may be damaged.");
+//     console.log("Replace cables and try again.");
+//   }
+// }
