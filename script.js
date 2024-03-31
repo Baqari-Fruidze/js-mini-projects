@@ -518,3 +518,93 @@
 //     console.log("Replace cables and try again.");
 //   }
 // }
+
+// პროექტი 42 - Anagram Checker - ანაგრამის შემმოწმებელი
+
+// console.log("Enter two strings and I'll tell you if they");
+// let answer1 = prompt("enter first string ");
+// let answer2 = prompt("enter second string ");
+// function isPangram(str1, str2) {
+//   if (str1.length !== str2.length) {
+//     return "these two words are not angrams";
+//   }
+//   for (let i = 0; i < str1.length; i++) {
+//     if (!str2.includes(str1[i])) {
+//       return "these two are not angrames";
+//     } else {
+//       return "they are anagrams";
+//     }
+//   }
+// }
+// console.log(isPangram(answer1, answer2));
+
+// პროექტი 43 - Password Strength Indicator - პაროლის სიძლიერის შემფასებელი
+
+// let numArr = ["0", "1", " 2", " 3", " 4", " 5", " 6", " 7", " 8", " 9"];
+// let letterArr = [
+//   "q",
+//   "w",
+//   "e",
+//   "r",
+//   "t",
+//   "y",
+//   "u",
+//   "i",
+//   "o",
+//   "p",
+//   "a",
+//   "s",
+//   "d",
+//   "f",
+//   "g",
+//   "h",
+//   "j",
+//   "k",
+//   "l",
+//   "z",
+//   "x",
+//   "c",
+//   "v",
+//   "b",
+//   "n",
+//   "m",
+// ];
+// let symbols = ["+", ")", "(", "@"];
+// let answer = prompt("please enter the password ");
+
+// function strengthChecker(str) {
+//   for (let i = 0; i < str.length; i++) {
+//     if (
+//       !symbols.includes(str[i]) &&
+//       !letterArr.includes(str[i]) &&
+//       str.length < 8
+//     ) {
+//       return `password  ${answer}is too weak`;
+//     }
+//     if (
+//       !symbols.includes(str[i]) &&
+//       !numArr.includes(str[i]) &&
+//       str.length < 8
+//     ) {
+//       return `The password  ${answer} is a weak password`;
+//     }
+//     if (
+//       numArr.includes(str[i]) ||
+//       letterArr.includes(str[i] && str.length >= 8)
+//     ) {
+//       return `The password '${answer}' is a strong password.`;
+//     }
+
+//     if (
+//       numArr.includes(str[i]) ||
+//       letterArr.includes(
+//         str[i] || (symbols.includes(str[i]) && str.length >= 8)
+//       )
+//     ) {
+//       return `The password '${answer}' is a  too strong password.`;
+//     }
+//   }
+// }
+// console.log(strengthChecker(answer));
+
+// პროექტი 44 - Months to Pay Off a Credit Card - საკრედიტო ბარათის დაფარვისთვის საჭირო თვეები
