@@ -608,3 +608,127 @@
 // console.log(strengthChecker(answer));
 
 // პროექტი 44 - Months to Pay Off a Credit Card - საკრედიტო ბარათის დაფარვისთვის საჭირო თვეები
+
+// ვა თა ჰააკ?
+
+// პროექტი 45 - Validating Inputs - Input-ების ვალიდაცია
+
+// let firstName = prompt("please enter the firstname ");
+// let lastName = prompt("please enter the lastname ");
+// let zip = prompt("please enter the zip ");
+// let id = prompt("please enter the id ");
+// let letterArr = [
+//   "q",
+//   "w",
+//   "e",
+//   "r",
+//   "t",
+//   "y",
+//   "u",
+//   "i",
+//   "o",
+//   "p",
+//   "a",
+//   "s",
+//   "d",
+//   "f",
+//   "g",
+//   "h",
+//   "j",
+//   "k",
+//   "l",
+//   "z",
+//   "x",
+//   "c",
+//   "v",
+//   "b",
+//   "n",
+//   "m",
+// ];
+// let numArr = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+// function firstNameChecker(str) {
+//   if (str.length < 3) return "firstName must be contain min 3 char.";
+//   for (let i = 0; i < str.length; i++) {
+//     if (numArr.includes(str[i])) {
+//       return "firstname  only contains letters";
+//     }
+//   }
+//   return true;
+// }
+
+// function lastNameChecker(str) {
+//   if (str.length < 3) return "lastName must be contain min 3 char.";
+//   for (let i = 0; i < str.length; i++) {
+//     if (numArr.includes(str[i])) {
+//       return "lastName  only contains letters";
+//     }
+//   }
+//   return true;
+// }
+
+// function zipChecker(str) {
+//   for (let i = 0; i < str.length; i++) {
+//     if (letterArr.includes(str[i])) {
+//       return "zip can only contain numbers";
+//     }
+//   }
+//   return true;
+// }
+
+// function idChecker(str) {
+//   if (str.length !== 7) return "enter the right format for id";
+//   if (str[2] !== "-") return "enter the right format for id";
+//   let splited = str.split("-");
+//   let letters = splited[0];
+//   let nums = splited[1];
+//   if (numArr.includes(letters[0]) || numArr.includes(letters[1])) {
+//     return "first two chars in id must be letters";
+//   }
+//   for (let i = 0; i < nums.length; i++) {
+//     if (!numArr.includes(nums[i])) {
+//       return "last four char must be numbers";
+//     }
+//   }
+//   return true;
+// }
+
+// function validateInput() {
+//   let arr = [
+//     firstNameChecker(firstName),
+//     lastNameChecker(lastName),
+//     zipChecker(zip),
+//     idChecker(id),
+//   ];
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] !== true) {
+//       return arr[i];
+//     }
+//   }
+//   return "everything is ok";
+// }
+// console.log(validateInput());
+
+// პროექტი 46 - Camel Case
+let alp = "QWERTYUIOPASDFGHJKLZXCVBNM";
+
+// let answer = prompt("please enter your string ")
+// for(let  i =0;i<answer.length;i++){
+//     if(alp.includes(answer[i])){
+//         answer.replaceAll(answer[i],"_")
+//     }
+
+// }
+
+let arr = [];
+function foo() {
+  let answer = prompt("please enter your string ");
+  for (let i = 0; i < answer.length; i++) {
+    if (alp.includes(answer[i])) {
+      answer[i].replace("answer[i]", "_");
+      arr.push(answer[i]);
+    }
+  }
+}
+console.log(foo());
+console.log(arr);
