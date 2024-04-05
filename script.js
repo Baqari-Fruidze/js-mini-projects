@@ -710,25 +710,14 @@
 // console.log(validateInput());
 
 // პროექტი 46 - Camel Case
-let alp = "QWERTYUIOPASDFGHJKLZXCVBNM";
 
-// let answer = prompt("please enter your string ")
-// for(let  i =0;i<answer.length;i++){
-//     if(alp.includes(answer[i])){
-//         answer.replaceAll(answer[i],"_")
-//     }
+// let answer = prompt("please enter your string ");
 
-// }
-
-let arr = [];
-function foo() {
-  let answer = prompt("please enter your string ");
-  for (let i = 0; i < answer.length; i++) {
-    if (alp.includes(answer[i])) {
-      answer[i].replace("answer[i]", "_");
-      arr.push(answer[i]);
-    }
-  }
-}
-console.log(foo());
-console.log(arr);
+// let splited = answer.split("");
+// let maped = splited.map((el) => {
+//   if (el === el.toUpperCase()) {
+//     return "_" + el.toLowerCase();
+//   }
+//   return el;
+// });
+// console.log(maped.join(""));
