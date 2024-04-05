@@ -721,3 +721,23 @@
 //   return el;
 // });
 // console.log(maped.join(""));
+
+// პროექტი 47 - Coke Machine - კოკა-კოლის მანქანა
+
+for (;;) {
+  let answer = Number(prompt("please give me coin "));
+
+  answer += answer;
+  //   if (answer < 50) {
+  //     continue
+  //     }
+
+  if (answer === 50) {
+    console.log("aighet tqveni kola");
+    break;
+  }
+  if (answer > 50) {
+    console.log(`tqven gekuTniT xurda  ${answer - 50}`);
+    break;
+  }
+}
