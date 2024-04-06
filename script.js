@@ -740,3 +740,26 @@
 //     break;
 //   }
 // }
+
+// პროექტი 48 - Just setting up my twttr - ჩემი twttr-ის დაყენება
+
+// let answer = prompt("please enter the string ").toLowerCase();
+
+// function foo() {
+//   let arr = [];
+//   for (let i = 0; i < answer.length; i++) {
+//     if (
+//       answer[i] !== "a" &&
+//       answer[i] !== "e" &&
+//       answer[i] !== "i" &&
+//       answer[i] !== "o" &&
+//       answer[i] !== "u"
+//     ) {
+//       arr.push(answer[i]);
+//     }
+//   }
+//   return arr.join("");
+// }
+// console.log(foo(answer));
+
+// პროექტი 49 - Vanity Plates - სანომრე ნიშნები
