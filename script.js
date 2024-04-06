@@ -724,20 +724,19 @@
 
 // პროექტი 47 - Coke Machine - კოკა-კოლის მანქანა
 
-for (;;) {
-  let answer = Number(prompt("please give me coin "));
+// let count = 0;
 
-  answer += answer;
-  //   if (answer < 50) {
-  //     continue
-  //     }
+// for (;;) {
+//   let answer = Number(prompt("Please give me coin "));
+//   count += answer;
 
-  if (answer === 50) {
-    console.log("aighet tqveni kola");
-    break;
-  }
-  if (answer > 50) {
-    console.log(`tqven gekuTniT xurda  ${answer - 50}`);
-    break;
-  }
-}
+//   if (count < 50) {
+//     continue;
+//   } else if (count === 50) {
+//     console.log("Please take your cola");
+//     break;
+//   } else {
+//     console.log(`Your change is ${count - 50} and take the cola`);
+//     break;
+//   }
+// }
