@@ -763,3 +763,45 @@
 // console.log(foo(answer));
 
 // პროექტი 49 - Vanity Plates - სანომრე ნიშნები
+
+// let alp = "QWERTYUIOPASDFGHJKLZXCVBNM";
+// let nums = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+// let license = prompt("please enter the numb ").toUpperCase();
+// function foo(str) {
+//   if (str.length > 6) {
+//     return "invalid";
+//   }
+//   if (!alp.includes(str[0]) || !alp.includes(str[1])) {
+//     return "invalid a";
+//   }
+//   if (alp.includes(str[str.length - 1]) && !alp.includes(str[str.length - 2])) {
+//     return "invalidioo";
+//   }
+
+//   if (
+//     alp.includes(str[str.length - 1]) &&
+//     alp.includes(str[str.length - 2]) &&
+//     !alp.includes(str[str.length - 1])
+//   ) {
+//     return "invalid";
+//   }
+//   if (nums.includes(str[str.length - 1]) && str[str.length - 2] === "0") {
+//     return "0 is unexcaptable";
+//   } else if (
+//     nums.includes(str[str.length - 1]) &&
+//     nums.includes(str[str.length - 2]) &&
+//     str[str.length - 3] === "0"
+//   ) {
+//     return "0 is unexcaptable";
+//   } else if (
+//     nums.includes(str[str.length - 1]) &&
+//     nums.includes(str[str.length - 2]) &&
+//     nums.includes(str[str.length - 3]) &&
+//     str[str.length - 4] === "0"
+//   ) {
+//     return "0 is unexcaptable";
+//   }
+// }
+// console.log(foo(license));
+
+// პროექტი 50 - Handling Bad Input - ცუდი Input-ის მართვა
