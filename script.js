@@ -805,3 +805,24 @@
 // console.log(foo(license));
 
 // პროექტი 50 - Handling Bad Input - ცუდი Input-ის მართვა
+
+// let arr = ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
+// for (;;) {
+//   let answer = prompt("What is the rate of return?  ");
+//   if (answer === "0") {
+//     console.log("cannot divide on zero");
+//     continue;
+//   }
+//   if (!arr.includes(answer)) {
+//     console.log(" Sorry. That's not a valid input.");
+//     let answer = prompt("What is the rate of return?  ");
+//   }
+//   if (arr.includes(answer)) {
+//     console.log(
+//       `It will take ${
+//         72 / Number(answer)
+//       } years to double your initial investment.`
+//     );
+//     break;
+//   }
+// }
