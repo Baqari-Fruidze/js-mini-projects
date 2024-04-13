@@ -834,3 +834,16 @@
 //     console.log(`${i} x ${j}= ${i * j}`);
 //   }
 // }
+
+// პროექტი 52 - Karvonen Heart Rate
+// let age = Number(prompt('please enter your age '));
+// let intensity = Number(prompt('please enter the  intensity '));
+
+// // TargetHeartRate = (((220 - age) - restingHR) * intensity) + restingHR
+// for (let i = 55; i <= 95; i + 5) {
+//   let ages = `220 - ${age}`;
+//   let restingHr = ages - i;
+//   let intens = restingHr * intensity;
+//   let targetRate = intens + i;
+//   console.log(targetRate);
+// }
