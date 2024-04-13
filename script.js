@@ -847,3 +847,14 @@
 //   let targetRate = intens + i;
 //   console.log(targetRate);
 // }
+
+// let age = Number(prompt("Please enter your age:"));
+// let intensity = Number(prompt("Please enter the intensity:"));
+
+// const maxHeartRate = 220 - age;
+
+// for (let i = 55; i <= 95; i += 5) {
+//   let restingHR = maxHeartRate - i;
+//   let targetRate = ((maxHeartRate - restingHR) * intensity) / 100 + restingHR;
+//   console.log(`Target heart rate at ${i}% intensity: ${targetRate.toFixed(2)}`);
+// }
