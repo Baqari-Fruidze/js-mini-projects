@@ -858,3 +858,5 @@
 //   let targetRate = ((maxHeartRate - restingHR) * intensity) / 100 + restingHR;
 //   console.log(`Target heart rate at ${i}% intensity: ${targetRate.toFixed(2)}`);
 // }
+
+// პროექტი 53 - Guess The Number Game - თამაში რიცხვის გამოცნობაზე.
