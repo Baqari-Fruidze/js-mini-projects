@@ -860,3 +860,6 @@
 // }
 
 // პროექტი 53 - Guess The Number Game - თამაში რიცხვის გამოცნობაზე.
+let levelChoose = Number(prompt("please choose your level "));
+let random = Math.floor(Math.random() * 10);
+console.log(random);
