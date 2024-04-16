@@ -862,4 +862,60 @@
 // პროექტი 53 - Guess The Number Game - თამაში რიცხვის გამოცნობაზე.
 let levelChoose = Number(prompt("please choose your level "));
 let random = Math.floor(Math.random() * 10);
-console.log(random);
+if (levelChoose === 1) {
+  let random = Math.floor(Math.random() * 10);
+  let count = 0;
+  for (;;) {
+    let answer = Number(prompt("please guess the number"));
+    if (answer < random) {
+      console.log("too low");
+      count++;
+      answer = Number(prompt("please guess the number"));
+    } else if (answer > random) {
+      console.log("too high");
+      count++;
+      answer = Number(prompt("please guess the number"));
+    } else if (answer === random) {
+      console.log(`congrats,you got in ${count + 1}  try`);
+      break;
+    }
+  }
+}
+if (levelChoose === 2) {
+  let random = Math.floor(Math.random() * 100);
+  let count = 0;
+  for (;;) {
+    let answer = Number(prompt("please guess the number"));
+    if (answer < random) {
+      console.log("too low");
+      count++;
+      answer = Number(prompt("please guess the number"));
+    } else if (answer > random) {
+      console.log("too high");
+      count++;
+      answer = Number(prompt("please guess the number"));
+    } else if (answer === random) {
+      console.log(`congrats,you got in ${count + 1}  try`);
+      break;
+    }
+  }
+}
+if (levelChoose === 3) {
+  let random = Math.floor(Math.random() * 1000);
+  let count = 0;
+  for (;;) {
+    let answer = Number(prompt("please guess the number"));
+    if (answer < random) {
+      console.log("too low");
+      count++;
+      answer = Number(prompt("please guess the number"));
+    } else if (answer > random) {
+      console.log("too high");
+      count++;
+      answer = Number(prompt("please guess the number"));
+    } else if (answer === random) {
+      console.log(`congrats,you got in ${count + 1}  try`);
+      break;
+    }
+  }
+}
