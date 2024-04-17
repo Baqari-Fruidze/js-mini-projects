@@ -918,8 +918,8 @@ if (levelChoose === 3) {
       break;
     }
   }
-  let play = prompt("do you want to play agayn ?");
-  if (play === "n") {
-    console.log("bye");
-  }
+}
+let play = prompt("do you want to play agayn ?");
+if (play === "n") {
+  console.log("bye");
 }
