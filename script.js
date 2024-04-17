@@ -860,66 +860,81 @@
 // }
 
 // პროექტი 53 - Guess The Number Game - თამაში რიცხვის გამოცნობაზე.
-let levelChoose = Number(prompt("please choose your level "));
-let random = Math.floor(Math.random() * 10);
-if (levelChoose === 1) {
-  let random = Math.floor(Math.random() * 10);
-  let count = 0;
-  for (;;) {
-    let answer = Number(prompt("please guess the number"));
-    if (answer < random) {
-      console.log("too low");
-      count++;
-      answer = Number(prompt("please guess the number"));
-    } else if (answer > random) {
-      console.log("too high");
-      count++;
-      answer = Number(prompt("please guess the number"));
-    } else if (answer === random) {
-      console.log(`congrats,you got in ${count + 1}  try`);
-      break;
-    }
-  }
-}
-if (levelChoose === 2) {
-  let random = Math.floor(Math.random() * 100);
-  let count = 0;
-  for (;;) {
-    let answer = Number(prompt("please guess the number"));
-    if (answer < random) {
-      console.log("too low");
-      count++;
-      answer = Number(prompt("please guess the number"));
-    } else if (answer > random) {
-      console.log("too high");
-      count++;
-      answer = Number(prompt("please guess the number"));
-    } else if (answer === random) {
-      console.log(`congrats,you got in ${count + 1}  try`);
-      break;
-    }
-  }
-}
-if (levelChoose === 3) {
-  let random = Math.floor(Math.random() * 1000);
-  let count = 0;
-  for (;;) {
-    let answer = Number(prompt("please guess the number"));
-    if (answer < random) {
-      console.log("too low");
-      count++;
-      answer = Number(prompt("please guess the number"));
-    } else if (answer > random) {
-      console.log("too high");
-      count++;
-      answer = Number(prompt("please guess the number"));
-    } else if (answer === random) {
-      console.log(`congrats,you got in ${count + 1}  try`);
-      break;
-    }
-  }
-}
-let play = prompt("do you want to play agayn ?");
-if (play === "n") {
-  console.log("bye");
-}
+// let levelChoose = Number(prompt("please choose your level "));
+// let random = Math.floor(Math.random() * 10);
+// if (levelChoose === 1) {
+//   let random = Math.floor(Math.random() * 10);
+//   let count = 0;
+//   for (;;) {
+//     let answer = Number(prompt("please guess the number"));
+//     if (answer < random) {
+//       console.log("too low");
+//       count++;
+//       answer = Number(prompt("please guess the number"));
+//     } else if (answer > random) {
+//       console.log("too high");
+//       count++;
+//       answer = Number(prompt("please guess the number"));
+//     } else if (answer === random) {
+//       console.log(`congrats,you got in ${count + 1}  try`);
+//       break;
+//     }
+//   }
+// }
+// if (levelChoose === 2) {
+//   let random = Math.floor(Math.random() * 100);
+//   let count = 0;
+//   for (;;) {
+//     let answer = Number(prompt("please guess the number"));
+//     if (answer < random) {
+//       console.log("too low");
+//       count++;
+//       answer = Number(prompt("please guess the number"));
+//     } else if (answer > random) {
+//       console.log("too high");
+//       count++;
+//       answer = Number(prompt("please guess the number"));
+//     } else if (answer === random) {
+//       console.log(`congrats,you got in ${count + 1}  try`);
+//       break;
+//     }
+//   }
+// }
+// if (levelChoose === 3) {
+//   let random = Math.floor(Math.random() * 1000);
+//   let count = 0;
+//   for (;;) {
+//     let answer = Number(prompt("please guess the number"));
+//     if (answer < random) {
+//       console.log("too low");
+//       count++;
+//       answer = Number(prompt("please guess the number"));
+//     } else if (answer > random) {
+//       console.log("too high");
+//       count++;
+//       answer = Number(prompt("please guess the number"));
+//     } else if (answer === random) {
+//       console.log(`congrats,you got in ${count + 1}  try`);
+//       break;
+//     }
+//   }
+// }
+// let play = prompt("do you want to play agayn ?");
+// if (play === "n") {
+//   console.log("bye");
+// }
+
+// პროექტი 55 - Picking a Winner - გამარჯვებულის არჩევა
+
+// let arr = [];
+// for (;;) {
+//   let answer = prompt("please enter the name ");
+//   arr.push(answer);
+//   if (answer === "") {
+//     let winnerIndex = Math.floor(Math.random() * arr.length);
+//     let winerName = arr[winnerIndex];
+
+//     console.log(`the wiiner is   ${winerName}`);
+//     break;
+//   }
+// }
