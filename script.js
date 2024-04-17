@@ -916,6 +916,10 @@ if (levelChoose === 3) {
     } else if (answer === random) {
       console.log(`congrats,you got in ${count + 1}  try`);
       break;
+      let play = prompt("do you want to play agayn ?");
+      if (play === "n") {
+        console.log("bye");
+      }
     }
   }
 }
