@@ -924,6 +924,15 @@
 //   console.log("bye");
 // }
 
+// პროექტი 54 - Magic 8 Ball
+
+const Chance = require("chance");
+const chance = new Chance();
+
+const randomNumber = chance.integer({ min: 1, max: 3 });
+console.log(randomNumber);
+let arr = ["yes", "no", "Ask again later."];
+
 // პროექტი 55 - Picking a Winner - გამარჯვებულის არჩევა
 
 // let arr = [];
@@ -938,3 +947,7 @@
 //     break;
 //   }
 // }
+
+// const chance = require("chance");
+// const randomInt = chance.integer({ min: 1, max: 100 });
+// console.log(randomInt);
