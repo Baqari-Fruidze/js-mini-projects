@@ -960,3 +960,5 @@
 // const chance = require("chance");
 // const randomInt = chance.integer({ min: 1, max: 100 });
 // console.log(randomInt);
+
+// პროექტი 56 - Outdated - ვადაგასული
