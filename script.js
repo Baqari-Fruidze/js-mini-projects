@@ -962,3 +962,6 @@
 // console.log(randomInt);
 
 // პროექტი 56 - Outdated - ვადაგასული
+let arr = [1, 2, 3, 3, 3, 3, 3, 4, 5, 6, 4, 5];
+// const arr2 = new Set([...arr])
+console.log([...new Set(arr)]);
